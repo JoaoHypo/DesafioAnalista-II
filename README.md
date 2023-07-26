@@ -126,4 +126,5 @@ sudo mv * ..
 
 <p>Outros métodos disponíveis em: <a href="https://developer.marvel.com/docs">https://developer.marvel.com/docs</a></p>
 
-<h3>Por último, caso você vá clonar este repo, seria bom gerar suas próprias keys e substituir pelas minhas geradas, elas possuem uso limite diário.</h3>
+<h3>Por último, caso você vá clonar este repo, seria bom gerar suas próprias keys e substituir pelas minhas.<br>
+ As chaves possuem limite de uso diário.</h3>
