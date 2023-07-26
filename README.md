@@ -1,8 +1,8 @@
 # DesafioAnalista-II
 <h1>API de consulta a API da Marvel.</h1>
 
-<p>Eescolhendo 3 heróis e extraindo imagens e 5 histórias atreladas ao seus dados da api.
-Api da Marvel devolve suas requests em json.</p>
+<p>Eescolhendo 3 heróis e extraindo imagens e 5 histórias aleatórias atreladas ao seus dados da api.</p>
+</>A Api da Marvel devolve suas requests em json.</p>
 
 <h2>Setup do desenvolvimento:</h2>
 <p>(É um note dell antigo que tem estética de 1 macbook dos antigos também,vulgo Gigatosh)</p>
