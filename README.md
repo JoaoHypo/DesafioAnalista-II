@@ -1,7 +1,7 @@
 # DesafioAnalista-II
 <h1>API de consulta a API da Marvel.</h1>
 
-<p>Eescolhendo 3 heróis e extraindo imagens e 5 histórias aleatórias atreladas ao seus dados da api.</p>
+<p>Eescolhendo 3 heróis, extraia suas imagens e 5 histórias aleatórias atreladas ao seus dados da api.</p>
 </>A Api da Marvel devolve suas requests em json.</p>
 
 <h2>Setup do desenvolvimento:</h2>
