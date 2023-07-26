@@ -5,12 +5,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <?php include 'header.php'; ?>
+    
     <h1>Meus Heróis Favoritos da Marvel</h1>
 
     <?php
-    // Verificando se há dados na resposta da API
-    if (isset($data['data']['results']) && count($data['data']['results']) > 0) {
-        foreach ($data['data']['results'] as $hero) {
+    // Incluindo api.php para obter os dados dos heróis
+    $heroes = include 'api.php';
+
+    // Verificando se há heróis disponíveis
+    if (count($heroes) > 0) {
+        // Exibindo os dados dos heróis e suas histórias
+        foreach ($heroes as $hero) {
             $name = $hero['name'];
             $thumbnailUrl = "{$hero['thumbnail']['path']}.{$hero['thumbnail']['extension']}";
 
@@ -34,7 +40,8 @@
             // Verificando se há histórias associadas ao herói
             if (isset($data_stories['data']['results']) && count($data_stories['data']['results']) > 0) {
                 echo "<ul>";
-                foreach ($data_stories['data']['results'] as $story) {
+                $stories = array_slice($data_stories['data']['results'], 0, 5); // Exibir apenas as 5 primeiras histórias
+                foreach ($stories as $story) {
                     $storyTitle = $story['title'];
                     echo "<li>{$storyTitle}</li>";
                 }
@@ -50,5 +57,6 @@
     }
     ?>
 
+    <?php include 'footer.php'; ?>
 </body>
 </html>
