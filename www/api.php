@@ -86,6 +86,6 @@ foreach ($heroesNames as $heroName) {
         ];
     }
 }
-
+//curl_close($ch);
 return $selectedHeroesData;
 ?>
