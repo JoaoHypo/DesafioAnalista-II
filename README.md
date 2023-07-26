@@ -27,13 +27,13 @@ MariaDB 5.4.28<br>
 phpMyAdmin 5.2.1<br>
 OpenSSL 1.1.1t</p>
 
-<p>No ambiente linux é necessário tornar executável o arquivo baixado, abrindo o terminal, navegando até a pasta onde foi baixado o arquivo de instalção .run e utlizando o comando sudo chmod +x nome-do-arquivo-baixo<br>
+<p>No ambiente linux é necessário tornar executável o arquivo baixado, abrindo o terminal, navegando até a pasta onde foi baixado o arquivo de instalação .run e utlizando o comando sudo chmod +x nome-do-arquivo-baixo<br>
 Digite em seguida sua senha do linux, e execute o .run com<br>
 sudo ./nome-do-arquivo-baixado</p>
 
 <p>Na instalação é só avançar até o final com as configurações recomendadas.</p>
 
-<p>Finalizada a instação, vamos criar um executável para o XAMPP</p>
+<p>Finalizada a instalação, vamos criar um executável para o XAMPP</p>
 
 <p>(Caso vá copiar os comandos, cuidado ao colar no terminal para que não falte nada ou envie o comando com algum espaço a mais, isso junto ao comando sudo pode acabar criando algum diretório ou arquivo novo com nome*quase igual*)</p>
 
@@ -57,7 +57,7 @@ sudo ./nome-do-arquivo-baixado</p>
  Terminal=true
 </pre>
 
-<p>Agora têmos um atalho no menu do unbuntu!</p>
+<p>Agora têmos um atalho no menu do Ubuntu!</p>
 
 <p>Ainda em .local/share/applications, para que consigamos utilizar o PHP instalado junto ao XAMPP, precisamos ajustar criando um link simbólico nos os binários do nosso OS(onde ficam os executáveis), com o seguinte comando:</p>
 
@@ -85,7 +85,7 @@ sudo ./nome-do-arquivo-baixado</p>
 <p>Pronto, agora é inserir seus arquivos dentro da pasta recém configurada e botar pra rodar!</p>
 <p>Caso queira testar este projeto, basta abrir um terminal dentro do diretório configurado, e utilizar o comando git clone deste repo.</p>
 
-<p>Lembrando que isso criará uma subpasta dentro do seu ambiente apache, que trata a pasta inserida anteriormente nos arquivos de programação como a raiz do servidor, então para acessar deverá no seu navegador, despois de clonado o repo e inicializado seu XAMPP, acessar localhost/DesafioAnalista-II.</p>
+<p>Lembrando que isso criará uma subpasta dentro do seu ambiente apache, que trata a pasta inserida anteriormente nos arquivos de programação como a raiz do servidor, então para acessar deverá no seu navegador, depois de clonado o repo e inicializado seu XAMPP, acessar localhost/DesafioAnalista-II.</p>
 
 <p>Ou acessar a pasta do DesafioAnalista-II, e pelo terminal,e subir todo conteúdo 1 diretório, a fim de tornar acessível a aplicação na raiz do localhost.</p>
 
