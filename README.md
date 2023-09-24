@@ -5,7 +5,7 @@
 </>A Api da Marvel devolve suas requests em json.</p>
 
 <h2>Setup do desenvolvimento:</h2>
-<p>(É um note dell antigo que tem estética de 1 macbook dos antigos também,vulgo Gigatosh)</p>
+<p>(É um note dell antigo que tem estética de 1 macbook dos antigos,vulgo Gigatosh)</p>
 <img src="gigatosh.png" alt="Gigatosh">
 <h2>Porque XAMPP (Cross-platform, Apache, MySQL, PHP, Perl)?</h2>
 
